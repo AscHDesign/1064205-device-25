@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Олег Кривенко](https://up.htmlacademy.ru/htmlcss/25/user/1064205).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Юдин](https://htmlacademy.ru/profile/a-yudin)
 
 ---
 
