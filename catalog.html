@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Device: catalog</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="site-header">
       <a href="index.html" class="header-logo"><img src="img/logo-header.svg" alt="Device logo header"></a>
       <nav class="site-navigation">
-        <input type="text" name="search" id="search" value="Поиск по сайту">
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <input type="text" name="search" id="search" placeholder="Поиск по сайту">
+        </form>
         <ul class="user-navigation user-navigation-header">
           <li class="profile-link profile-link-header"><a href="#">Валентин Петухов</a></li>
           <li class="logout-link logout-link-header"><a href="#">Выйти</a></li>
@@ -44,7 +47,54 @@
 
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!--form here-->
+        <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset class="color">
+            <legend>Цвет</legend>
+              <ul>
+                <li>
+                  <label>
+                    <input type="checkbox" name="black">Черный
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="white">Белый
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="blue">Синий
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="red">Красный
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" name="pink">Розовый
+                  </label>
+                </li>
+              </ul>
+          </fieldset>
+          <fieldset class="bluetooth">
+            <legend>Bluetooth</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="bluetooth yes">Есть
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="bluetooth no">Нет
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="button filter-button">Показать</button>
+        </form>
       </section>
 
       <section class="catalog">
@@ -122,7 +172,9 @@
         <li><a href="#" class="total-price total-price-footer">Корзина</a></li>
       </ul>
       <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-      <a href="https://htmlacademy.ru/intensive/htmlcss">Ссылка на&nbsp;HTML Academy</a>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Ссылка на HTML Academy">
+        <img src="img/logo-html.svg" alt="Ссылка на HTML Academy">
+      </a>
     </footer>
   </body>
 </html>
