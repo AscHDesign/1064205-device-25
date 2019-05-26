@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Device</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="site-header">
@@ -12,6 +14,7 @@
       <nav class="site-navigation">
         <form action="https://echo.htmlacademy.ru" method="GET">
           <input type="text" name="search" id="search" placeholder="Поиск по сайту">
+          <button class="search-button">Найти</button>
         </form>
         <ul class="user-navigation user-navigation-header">
           <li class="login-link login-link-header"><a href="#">Войти</a></li>
@@ -20,7 +23,7 @@
           <li><a href="#" class="diff-goods diff-goods-header">Сравнить</a></li>
           <li><a href="#" class="total-price total-price-header">Корзина</a></li>
         </ul>
-        <p><a href=# class="catalog-open-link">Каталог товаров</a></p>
+        <p><a href=# class="catalog-open-link gilroy-uppercase">Каталог товаров</a></p>
         <ul class="catalog-open-list">
           <li><a href="#" class="catalog-open-item">Виртуальная реальность</a></li>
           <li><a href="#" class="catalog-open-item">Фитнес-браслеты</a></li>
@@ -30,29 +33,29 @@
           <li><a href="#" class="catalog-open-item">Экшн-камеры</a></li>
         </ul>
         <ul class="seller-info seller-info-header">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li class="gilroy-uppercase"><a href="#">Доставка</a></li>
+          <li class="gilroy-uppercase"><a href="#">Гарантия</a></li>
+          <li class="gilroy-uppercase"><a href="#">Контакты</a></li>
         </ul>
       </nav>
     </header>
     <main class="main-content">
       <section class="about-us">
-        <h2>О&nbsp;нас</h2>
+        <h2 class="gilroy">О&nbsp;нас</h2>
         <p class="about-us-info">Огромный выбор гаджетов не&nbsp;оставит равнодушным гика, который есть в&nbsp;каждом из&nbsp;нас.</p>
         <p class="about-us-info">Мы&nbsp;можем доставить ваш товар в&nbsp;самые отдаленные точки России! DEVICE работает со&nbsp;многими транспортными компаниями:</p>
-        <ul class="partners-list">
+        <ul class="partners-list gilroy">
           <li>Деловые Линии</li>
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#">Подробнее о&nbsp;нас</a>
+        <a href="#" class="gilroy-uppercase">Подробнее о&nbsp;нас</a>
       </section>
       <section class="contacts">
-        <h2>Контакты</h2>
+        <h2 class="gilroy">Контакты</h2>
         <p class="contacts-info">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис. Заодно, вы&nbsp;сможете проверить работоспособность покупки. Всякое бывает.</p>
         <a href="#"><img src="img/map.jpg" alt="Наше местоположение"></a>
-        <a href="#">Напишите нам</a>
+        <a href="#" class="gilroy-uppercase">Напишите нам</a>
       </section>
 
     </main>
@@ -62,14 +65,14 @@
         г. Москва, ул. Строителей, 15
       </p>
       <ul class="seller-info seller-info-footer">
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="#" class="gilroy-uppercase">Доставка</a></li>
+        <li><a href="#" class="gilroy-uppercase">Гарантия</a></li>
+        <li><a href="#" class="gilroy-uppercase">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a class="social-button" href="#">Facebook</a></li>
-        <li><a class="social-button" href="#">Instagram</a></li>
-        <li><a class="social-button" href="#">Twitter</a></li>
+      <ul class="social-buttons">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
       </ul>
       <ul class="user-navigation user-navigation-footer">
         <li class="login-link login-link-footer"><a href="#">Войти</a></li>
@@ -79,7 +82,7 @@
         <li><a href="#" class="total-price total-price-footer">Корзина</a></li>
       </ul>
       <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Ссылка на HTML Academy">
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="logo-html">
         <img src="img/logo-html.svg" alt="Ссылка на HTML Academy">
       </a>
     </footer>
@@ -87,16 +90,16 @@
     <section class="modal modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form action="https://echo.htmlacademy.ru" method="GET">
-        <label>Ваше имя:
+        <label class="gilroy">Ваше имя:
           <input type="text" placeholder="Имя Фамилия" name="name">
         </label>
-        <label>Ваш e-mail:
+        <label class="gilroy">Ваш e-mail:
           <input type="text" placeholder="email@example.com" name="e-mail">
         </label>
-        <label>Текст письма:
+        <label class="gilroy">Текст письма:
           <input type="text" placeholder="В свободной форме" name="data">
         </label>
-        <button class="button send-button">Отправить</button>
+        <button class="button send-button gilroy-uppercase">Отправить</button>
       </form>
       <button class="modal-close">x</button>
     </section>

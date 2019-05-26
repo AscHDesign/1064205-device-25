@@ -1,7 +1,147 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/gilroyextrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 15px;
+  color: #000000;
+  line-height: 30px;
+  font-weight: 300;
+  
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.site-header {
+  background: #f7e296;
+}
+
+.gilroy-uppercase {
+  font-family: "Gilroy", Arial sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.gilroy {
+  font-family: "Gilroy", Arial sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.site-navigation input {
+  border: none;
+  opacity: 0.3;
+  background-color: #f7e296;
+}
+
+.site-navigation input:hover {
+  opacity: 0.6;
+}
+
+.site-navigation input:focus {
+  opacity: 1;
+}
+
+.login-link-header a:hover,
+.goods-actions-header a:hover,
+.catalog-open-link:hover,
+.catalog-open-list a:hover,
+.seller-info a:hover,
+.logo-html:hover {
+  opacity: 0.6;
+}
+
+.login-link-header a:active,
+.goods-actions-header a:active,
+.catalog-open-link:active,
+.catalog-open-list a:active,
+.seller-info a:active,
+.logo-html:active {
+  opacity: 0.3;
+}
+
+.login-link-footer a,
+.goods-actions-footer a {
+  opacity: 0.7;
+}
+
+.login-link-footer a:hover,
+.goods-actions-footer a:hover {
+  opacity: 1;
+}
+
+.login-link-footer a:active,
+.goods-actions-footer a:active {
+  opacity: 0.3;
+}
+
+.social-buttons a {
+  opacity: 0.3;
+}
+
+.social-buttons a:hover {
+  opacity: 0.6;
+}
+
+.social-buttons a:active {
+  opacity: 0.1;
+}
+
+.user-navigation,
+.goods-actions,
+.catalog-open-list,
+.seller-info,
+.social-buttons {
+  list-style: none;
+}
+
+.partners-list {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.site-footer {
+  background: #464646;
+  color: #ffffff;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.modal-write-us label {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+label input[type="text"] {
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
 }
