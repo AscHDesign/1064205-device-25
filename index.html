@@ -14,17 +14,17 @@
       <nav class="site-navigation">
         <form action="https://echo.htmlacademy.ru" method="GET">
           <input type="text" name="search" id="search" placeholder="Поиск по сайту">
-          <button class="search-button">Найти</button>
+          <button type="submit" class="search-button">Найти</button>
         </form>
-        <ul class="user-navigation user-navigation-header">
+        <ul class="user-navigation user-navigation-header list-style-reset">
           <li class="login-link login-link-header"><a href="#">Войти</a></li>
         </ul>
-        <ul class="goods-actions goods-actions-header">
+        <ul class="goods-actions goods-actions-header list-style-reset">
           <li><a href="#" class="diff-goods diff-goods-header">Сравнить</a></li>
           <li><a href="#" class="total-price total-price-header">Корзина</a></li>
         </ul>
         <p><a href=# class="catalog-open-link gilroy-uppercase">Каталог товаров</a></p>
-        <ul class="catalog-open-list">
+        <ul class="catalog-open-list list-style-reset">
           <li><a href="#" class="catalog-open-item">Виртуальная реальность</a></li>
           <li><a href="#" class="catalog-open-item">Фитнес-браслеты</a></li>
           <li><a href="#" class="catalog-open-item">Квадрокоптеры</a></li>
@@ -32,10 +32,10 @@
           <li><a href="#" class="catalog-open-item">Умные часы</a></li>
           <li><a href="#" class="catalog-open-item">Экшн-камеры</a></li>
         </ul>
-        <ul class="seller-info seller-info-header">
-          <li class="gilroy-uppercase"><a href="#">Доставка</a></li>
-          <li class="gilroy-uppercase"><a href="#">Гарантия</a></li>
-          <li class="gilroy-uppercase"><a href="#">Контакты</a></li>
+        <ul class="seller-info seller-info-header list-style-reset gilroy-uppercase">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
     </header>
@@ -64,20 +64,20 @@
       <p class="footer-contacts">
         г. Москва, ул. Строителей, 15
       </p>
-      <ul class="seller-info seller-info-footer">
-        <li><a href="#" class="gilroy-uppercase">Доставка</a></li>
-        <li><a href="#" class="gilroy-uppercase">Гарантия</a></li>
-        <li><a href="#" class="gilroy-uppercase">Контакты</a></li>
+      <ul class="seller-info seller-info-footer list-style-reset gilroy-uppercase">
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
-      <ul class="social-buttons">
+      <ul class="social-buttons list-style-reset">
         <li><a href="#">Facebook</a></li>
         <li><a href="#">Instagram</a></li>
         <li><a href="#">Twitter</a></li>
       </ul>
-      <ul class="user-navigation user-navigation-footer">
+      <ul class="user-navigation user-navigation-footer list-style-reset">
         <li class="login-link login-link-footer"><a href="#">Войти</a></li>
       </ul>
-        <ul class="goods-actions goods-actions-footer">
+        <ul class="goods-actions goods-actions-footer list-style-reset">
         <li><a href="#" class="diff-goods diff-goods-footer">Сравнить</a></li>
         <li><a href="#" class="total-price total-price-footer">Корзина</a></li>
       </ul>
@@ -89,7 +89,7 @@
 
     <section class="modal modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
-      <form action="https://echo.htmlacademy.ru" method="GET">
+      <form action="https://echo.htmlacademy.ru" method="POST">
         <label class="gilroy">Ваше имя:
           <input type="text" placeholder="Имя Фамилия" name="name">
         </label>
@@ -99,7 +99,7 @@
         <label class="gilroy">Текст письма:
           <input type="text" placeholder="В свободной форме" name="data">
         </label>
-        <button class="button send-button gilroy-uppercase">Отправить</button>
+        <button type="submit" class="button send-button gilroy-uppercase">Отправить</button>
       </form>
       <button class="modal-close">x</button>
     </section>

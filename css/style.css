@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("fonts/gilroyextrabold.woff2") format("woff2");
+  src: url("fonts/gilroyextrabold.woff2") format("woff2"),
+       url("fonts/gilroyextrabold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
@@ -112,11 +113,9 @@ a {
   opacity: 0.1;
 }
 
-.user-navigation,
-.goods-actions,
-.catalog-open-list,
-.seller-info,
-.social-buttons {
+.list-style-reset {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -139,7 +138,7 @@ a {
   line-height: 24px;
 }
 
-label input[type="text"] {
+.gilroy input[type="text"] {
   font-family: "Open Sans", Arial sans-serif;
   font-size: 14px;
   line-height: 18px;
