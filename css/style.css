@@ -29,7 +29,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #000000;
 }
 
 .site-header {
@@ -42,7 +41,7 @@ a {
   text-transform: uppercase;
   line-height: 24px;
   font-weight: 800;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   color: #000000;
 }
 
@@ -52,6 +51,16 @@ a {
   line-height: 48px;
   font-weight: 800;
   color: #000000;
+}
+
+.filters .gilroy {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.catalog-list .gilroy {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .site-navigation input {
@@ -73,7 +82,11 @@ a {
 .catalog-open-link:hover,
 .catalog-open-list a:hover,
 .seller-info a:hover,
-.logo-html:hover {
+.logo-html:hover,
+.profile-link-header:hover,
+.logout-link-header:hover,
+.header-logo:hover,
+.footer-logo:hover {
   opacity: 0.6;
 }
 
@@ -82,35 +95,56 @@ a {
 .catalog-open-link:active,
 .catalog-open-list a:active,
 .seller-info a:active,
-.logo-html:active {
+.logo-html:active,
+.profile-link-header:active,
+.logout-link-header:active,
+.header-logo:active,
+.footer-logo:active {
   opacity: 0.3;
 }
 
 .login-link-footer a,
-.goods-actions-footer a {
+.goods-actions-footer a,
+.profile-link-footer,
+.logout-link-footer {
   opacity: 0.7;
 }
 
 .login-link-footer a:hover,
-.goods-actions-footer a:hover {
+.goods-actions-footer a:hover,
+.profile-link-footer:hover,
+.logout-link-footer:hover {
   opacity: 1;
 }
 
 .login-link-footer a:active,
-.goods-actions-footer a:active {
+.goods-actions-footer a:active,
+.profile-link-footer:active,
+.logout-link-footer:active {
   opacity: 0.3;
 }
 
-.social-buttons a {
+.social-buttons a,
+.breadcrumbs a {
   opacity: 0.3;
 }
 
-.social-buttons a:hover {
+.social-buttons a:hover,
+.breadcrumbs a:hover {
   opacity: 0.6;
 }
 
-.social-buttons a:active {
+.social-buttons a:active,
+.breadcrumbs a:active {
   opacity: 0.1;
+}
+
+.breadcrumbs a {
+  font-family: "Open Sans", Arial sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 .list-style-reset {
@@ -127,6 +161,11 @@ a {
 .site-footer {
   background: #464646;
   color: #ffffff;
+}
+
+.site-header a,
+.main-content a {
+  color: #000000;
 }
 
 .site-footer a {

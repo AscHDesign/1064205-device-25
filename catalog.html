@@ -12,17 +12,18 @@
       <nav class="site-navigation">
         <form action="https://echo.htmlacademy.ru" method="GET">
           <input type="text" name="search" id="search" placeholder="Поиск по сайту">
+          <button type="submit" class="search-button">Найти</button>
         </form>
-        <ul class="user-navigation user-navigation-header">
+        <ul class="user-navigation user-navigation-header list-style-reset">
           <li class="profile-link profile-link-header"><a href="#">Валентин Петухов</a></li>
           <li class="logout-link logout-link-header"><a href="#">Выйти</a></li>
         </ul>
-        <ul class="goods-actions goods-actions-header">
+        <ul class="goods-actions goods-actions-header list-style-reset">
           <li><a href="#" class="diff-goods diff-goods-header">Сравнить</a></li>
           <li><a href="#" class="total-price total-price-header">Корзина</a></li>
         </ul>
-        <p><a href=# class="catalog-open-link">Каталог товаров</a></p>
-        <ul class="catalog-open-list">
+        <p><a href=# class="catalog-open-link gilroy-uppercase">Каталог товаров</a></p>
+        <ul class="catalog-open-list list-style-reset">
           <li><a href="#" class="catalog-open-item">Виртуальная реальность</a></li>
           <li><a href="#" class="catalog-open-item">Фитнес-браслеты</a></li>
           <li><a href="#" class="catalog-open-item">Квадрокоптеры</a></li>
@@ -30,7 +31,7 @@
           <li><a href="#" class="catalog-open-item">Умные часы</a></li>
           <li><a href="#" class="catalog-open-item">Экшн-камеры</a></li>
         </ul>
-        <ul class="seller-info seller-info-header">
+        <ul class="seller-info seller-info-header gilroy-uppercase list-style-reset">
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
           <li><a href="#">Контакты</a></li>
@@ -38,9 +39,9 @@
       </nav>
     </header>
     <main class=main-content>
-      <h1 class="page-title">Моноподы для селфи</h1>
+      <h1 class="page-title gilroy">Моноподы для селфи</h1>
 
-      <ul class="breadcrumbs">
+      <ul class="breadcrumbs list-style-reset">
         <li><a href="index.html">Главная</a></li>
         <li><a href="#">Каталог товаров</a></li>
         <li class="breadcrumbs-current"><a>Моноподы для селфи</a></li>
@@ -50,8 +51,8 @@
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form action="https://echo.htmlacademy.ru" method="GET">
           <fieldset class="color">
-            <legend>Цвет</legend>
-              <ul>
+            <legend class="gilroy">Цвет</legend>
+              <ul class="list-style-reset">
                 <li>
                   <label>
                     <input type="checkbox" name="black">Черный
@@ -80,8 +81,8 @@
               </ul>
           </fieldset>
           <fieldset class="bluetooth">
-            <legend>Bluetooth</legend>
-            <ul>
+            <legend class="gilroy">Bluetooth</legend>
+            <ul class="list-style-reset">
               <li>
                 <label>
                   <input type="radio" name="bluetooth" value="yes">Есть
@@ -94,20 +95,20 @@
               </li>
             </ul>
           </fieldset>
-          <button type="submit" class="button filter-button">Показать</button>
+          <button type="submit" class="button filter-button gilroy-uppercase">Показать</button>
         </form>
       </section>
 
       <section class="catalog">
         <h2 class="visually-hidden">Список товаров</h2>
-        <ul class="catalog-list">
+        <ul class="catalog-list list-style-reset">
           <li class="catalog-item">
             <article class="independent-unit">
               <p class="catalog-item-image">
                 <img src="img/item-1.jpg" alt="Любительская селфи-палка">
               </p>
               <h3>
-                <a href="#">Любительская селфи-палка</a>
+                <a href="#" class="gilroy">Любительская селфи-палка</a>
               </h3>
               <span>500&nbsp;руб.</span>
             </article>
@@ -118,7 +119,7 @@
                 <img src="img/item-2.jpg" alt="Профессиональная селфи-палка ">
                 </p>
                 <h3>
-                  <a href="#">Профессиональная селфи-палка </a>
+                  <a href="#" class="gilroy">Профессиональная селфи-палка </a>
                 </h3>
                 <span>1500&nbsp;руб.</span>
             </article>
@@ -129,7 +130,7 @@
                 <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка">
               </p>
                 <h3>
-                  <a href="#">Непотопляемая селфи-палка</a>
+                  <a href="#" class="gilroy">Непотопляемая селфи-палка</a>
                 </h3>
                 <span>2500&nbsp;руб.</span>
             </article>
@@ -140,7 +141,7 @@
                 <img src="img/item-4.jpg" alt="Селфи-палка «Следуй за мной»" class="new">
               </p>
                 <h3>
-                  <a href="#">Селфи-палка &laquo;Следуй за&nbsp;мной&raquo;</a>
+                  <a href="#" class="gilroy">Селфи-палка &laquo;Следуй за&nbsp;мной&raquo;</a>
                 </h3>
                 <span>4900&nbsp;руб.</span>
             </article>
@@ -154,26 +155,26 @@
       <p class="footer-contacts">
         г. Москва, ул. Строителей, 15
       </p>
-      <ul class="seller-info seller-info-footer">
+      <ul class="seller-info seller-info-footer list-style-reset gilroy-uppercase">
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Гарантия</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
-      <ul>
-        <li><a class="social-button" href="#">Facebook</a></li>
-        <li><a class="social-button" href="#">Instagram</a></li>
-        <li><a class="social-button" href="#">Twitter</a></li>
+      <ul class="social-buttons list-style-reset">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
       </ul>
-      <ul class="user-navigation user-navigation-footer">
-        <li class="profile-link profile-link-footer"><a href="#">Валентин Петухов</a></li>
-        <li class="logout-link logout-link-footer"><a href="#">Выйти</a></li>
+      <ul class="user-navigation user-navigation-footer list-style-reset">
+        <li><a href="#" class="profile-link profile-link-footer">Валентин Петухов</a></li>
+        <li><a href="#" class="logout-link logout-link-footer">Выйти</a></li>
       </ul>
-      <ul class="goods-actions goods-actions-footer">
+      <ul class="goods-actions goods-actions-footer list-style-reset">
         <li><a href="#" class="diff-goods diff-goods-footer">Сравнить</a></li>
         <li><a href="#" class="total-price total-price-footer">Корзина</a></li>
       </ul>
       <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
-      <a href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Ссылка на HTML Academy">
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="logo-html">
         <img src="img/logo-html.svg" alt="Ссылка на HTML Academy">
       </a>
     </footer>
