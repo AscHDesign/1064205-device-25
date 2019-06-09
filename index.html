@@ -11,33 +11,43 @@
     <header class="site-header">
       <h1 class="visually-hidden">Логотип</h1>
       <a class="header-logo"><img src="img/logo-header.svg" alt="Device logo black"></a>
-      <nav class="site-navigation">
-        <form action="https://echo.htmlacademy.ru" method="GET">
-          <input type="text" name="search" id="search" placeholder="Поиск по сайту">
-          <button type="submit" class="search-button">Найти</button>
-        </form>
-        <ul class="user-navigation user-navigation-header list-style-reset">
-          <li class="login-link login-link-header"><a href="#">Войти</a></li>
-        </ul>
-        <ul class="goods-actions goods-actions-header list-style-reset">
-          <li><a href="#" class="diff-goods diff-goods-header">Сравнить</a></li>
-          <li><a href="#" class="total-price total-price-header">Корзина</a></li>
-        </ul>
-        <p><a href=# class="catalog-open-link gilroy-uppercase">Каталог товаров</a></p>
-        <ul class="catalog-open-list list-style-reset">
-          <li><a href="#" class="catalog-open-item">Виртуальная реальность</a></li>
-          <li><a href="#" class="catalog-open-item">Фитнес-браслеты</a></li>
-          <li><a href="#" class="catalog-open-item">Квадрокоптеры</a></li>
-          <li><a href="#" class="catalog-open-item">Моноподы для селфи</a></li>
-          <li><a href="#" class="catalog-open-item">Умные часы</a></li>
-          <li><a href="#" class="catalog-open-item">Экшн-камеры</a></li>
-        </ul>
-        <ul class="seller-info seller-info-header list-style-reset gilroy-uppercase">
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Гарантия</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
+      <div class="site-navigation-box">  
+        <nav class="site-navigation">
+          <div class="navigation-row-1">
+            <div class="search-box">
+              <form action="https://echo.htmlacademy.ru" method="GET">
+                <input type="text" name="search" id="search" placeholder="Поиск по сайту">
+                <button type="submit" class="search-button">Найти</button>
+              </form>
+            </div>
+            <ul class="user-navigation user-navigation-header list-style-reset">
+              <li class="login-link login-link-header"><a href="#">Войти</a></li>
+            </ul>
+            <ul class="goods-actions goods-actions-header list-style-reset">
+              <li><a href="#" class="diff-goods diff-goods-header">Сравнить</a></li>
+              <li><a href="#" class="total-price total-price-header">Корзина</a></li>
+            </ul>
+          </div>
+          <div class="navigation-row-2">
+            <div class="catalog-box">
+              <p><a href=# class="catalog-open-link gilroy-uppercase">Каталог товаров</a></p>
+              <ul class="catalog-open-list list-style-reset">
+                <li><a href="#" class="catalog-open-item">Виртуальная реальность</a></li>
+                <li><a href="#" class="catalog-open-item">Фитнес-браслеты</a></li>
+                <li><a href="#" class="catalog-open-item">Квадрокоптеры</a></li>
+                <li><a href="#" class="catalog-open-item">Моноподы для селфи</a></li>
+                <li><a href="#" class="catalog-open-item">Умные часы</a></li>
+                <li><a href="#" class="catalog-open-item">Экшн-камеры</a></li>
+              </ul>
+            </div>
+            <ul class="seller-info seller-info-header list-style-reset gilroy-uppercase">
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Гарантия</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main class="main-content">
       <section class="about-us">

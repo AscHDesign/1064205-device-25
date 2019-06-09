@@ -6,6 +6,30 @@
   font-style: normal;
 }
 
+
+
+
+
+body > * {
+  background-color: rgba(255, 0, 0, 0.3)
+}
+
+body > * > * {
+  background-color: rgba(0, 180, 0, 0.3)
+}
+
+body > * > * > * {
+  background-color: rgba(0, 0, 140, 0.3)
+}
+
+asdbody > * > * > * > * {
+  background-color: rgba(255, 246, 0, 0.3)
+}
+
+asdbody > * > * > * > * > * {
+  background-color: rgba(255, 0, 182, 0.3)
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -182,4 +206,55 @@ a {
   font-size: 14px;
   line-height: 18px;
   font-weight: 300;
+}
+
+.site-header {
+  min-height: 228px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-logo {
+  width: 162px;
+  margin-left: 60px;
+  margin-bottom: 35px;
+}
+
+.site-navigation-box {
+  margin-left: 60px;
+}
+
+.navigation-row-1 {
+  display: flex;
+  margin-bottom: 40px;
+  flex-basis: 1040px;
+}
+
+.search-box {
+  width: 440px;
+  margin-right: 100px;
+}
+
+.user-navigation-header {
+  width: 260px;
+  margin-right: 20px;
+}
+
+.goods-actions-header {
+  display: flex;
+}
+
+.diff-goods-header {
+  width: 100px;
+  margin-right: 35px;
+}
+
+.total-price-header {
+  width: 185px;
+  margin-right: 60px;
+}
+
+.navigation-row-2 {
+  display: flex;
 }
