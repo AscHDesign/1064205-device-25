@@ -6,30 +6,6 @@
   font-style: normal;
 }
 
-
-
-
-
-body > * {
-  background-color: rgba(255, 0, 0, 0.3)
-}
-
-body > * > * {
-  background-color: rgba(0, 180, 0, 0.3)
-}
-
-body > * > * > * {
-  background-color: rgba(0, 0, 140, 0.3)
-}
-
-asdbody > * > * > * > * {
-  background-color: rgba(255, 246, 0, 0.3)
-}
-
-asdbody > * > * > * > * > * {
-  background-color: rgba(255, 0, 182, 0.3)
-}
-
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -209,10 +185,11 @@ a {
 }
 
 .site-header {
+  width: 1200px;
   min-height: 228px;
   padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  border-left: white solid 20px;
+  border-right: white solid 20px;
 }
 
 .header-logo {
@@ -222,13 +199,13 @@ a {
 }
 
 .site-navigation-box {
+  width:  1040px;
   margin-left: 60px;
 }
 
-.navigation-row-1 {
+.header-navigation-row-1 {
   display: flex;
   margin-bottom: 40px;
-  flex-basis: 1040px;
 }
 
 .search-box {
@@ -241,7 +218,7 @@ a {
   margin-right: 20px;
 }
 
-.goods-actions-header {
+.goods-actions {
   display: flex;
 }
 
@@ -255,6 +232,111 @@ a {
   margin-right: 60px;
 }
 
-.navigation-row-2 {
+.header-navigation-row-2 {
+  display: flex;
+  align-items: baseline;
+}
+
+.catalog-box {
+  width: 520px;
+  margin-right: 20px;
+}
+
+.seller-info-header {
+  display: flex;
+  flex-direction: row;
+  margin-right: 60px;
+}
+
+.seller-info-header-deliviery {
+  width: 122px;
+  margin-right: 36px;
+}
+
+.seller-info-header-warrant {
+  width: 111px;
+  margin-right: 112px;
+}
+
+.seller-info-header-contact {
+  width: 119px;
+  margin-left: auto;
+}
+
+.main-content {
+  display: flex;
+  width: 1200px;
+  min-height: 605px;
+  padding-left: 18px;
+  padding-right: 20px;
+}
+
+.about-us {
+  width: 582px;
+}
+
+.contacts {
+  width: 562px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-footer {
+  width: 1200px;
+  min-height: 323px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 65px;
+}
+
+.footer-row-1 {
   display: flex;
 }
+
+.footer-logo {
+  width: 163px;
+}
+
+.user-navigation-footer {
+  width: 260px;
+}
+
+.diff-goods-footer {
+  width: 100px;
+}
+
+.total-price-footer {
+  width: 185px;
+}
+
+
+
+
+
+
+/*.footer-box-1 {
+  margin-top: 65px;
+}
+
+.footer-box-2 {
+  width: 440px;
+  margin-top: 139px;
+}
+
+.footer-box-3 {
+  margin-top: 65px;
+}
+
+.seller-info-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+.social-buttons {
+  display: flex;
+  width: 141px;
+  justify-content: space-between;
+  margin: auto;
+}
+*/
